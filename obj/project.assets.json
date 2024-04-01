@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NETS\\.NETS.csproj",
+      "projectUniqueName": "D:\\.NET project\\.NETS\\.NETS.csproj",
       "projectName": ".NETS",
-      "projectPath": "D:\\.NETS\\.NETS.csproj",
+      "projectPath": "D:\\.NET project\\.NETS\\.NETS.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "D:\\.NETS\\obj\\",
+      "outputPath": "D:\\.NET project\\.NETS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"

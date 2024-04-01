@@ -12,3 +12,18 @@ D:\.NETS\obj\Debug\net8.0\refint\.NETS.dll
 D:\.NETS\obj\Debug\net8.0\.NETS.pdb
 D:\.NETS\obj\Debug\net8.0\.NETS.genruntimeconfig.cache
 D:\.NETS\obj\Debug\net8.0\ref\.NETS.dll
+D:\.NET project\.NETS\bin\Debug\net8.0\.NETS.exe
+D:\.NET project\.NETS\bin\Debug\net8.0\.NETS.deps.json
+D:\.NET project\.NETS\bin\Debug\net8.0\.NETS.runtimeconfig.json
+D:\.NET project\.NETS\bin\Debug\net8.0\.NETS.dll
+D:\.NET project\.NETS\bin\Debug\net8.0\.NETS.pdb
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.AssemblyInfoInputs.cache
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.AssemblyInfo.cs
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.csproj.CoreCompileInputs.cache
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.sourcelink.json
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.dll
+D:\.NET project\.NETS\obj\Debug\net8.0\refint\.NETS.dll
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.pdb
+D:\.NET project\.NETS\obj\Debug\net8.0\.NETS.genruntimeconfig.cache
+D:\.NET project\.NETS\obj\Debug\net8.0\ref\.NETS.dll
