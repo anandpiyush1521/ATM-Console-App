@@ -88,7 +88,10 @@ public class cardHolder
             Console.WriteLine("Please enter the amount you would like to deposit: ");
             double deposit = double.Parse(Console.ReadLine());
             currentUser.setBalance(currentUser.getBalance() + deposit);
+
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Thank you for your money, Your new balance is: " + currentUser.getBalance());
+            Console.ResetColor();
         }
 
         void withdraw(cardHolder currentUser)
@@ -99,19 +102,25 @@ public class cardHolder
             // check if user has enough money
             if (withdrawal > currentUser.getBalance())
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Insufficient balance :(");
+                Console.ResetColor();
             }
             else
             {
                 double newBalance = currentUser.getBalance() - withdrawal;
                 currentUser.setBalance(newBalance);
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("You are good to go! Thank You :)");
+                Console.ResetColor();
             }
         }
 
         void Balance(cardHolder currentUser)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Your current balance is: " + currentUser.getBalance());
+            Console.ResetColor();
         }
 
         List<cardHolder> cardHolders = new List<cardHolder>();
@@ -122,7 +131,21 @@ public class cardHolder
         cardHolders.Add(new cardHolder("31412167812", 3141, "Nisha", "Singh", 5000));
 
         // prompt user
-        Console.WriteLine("Welcome to simpleATM");
+       
+        //Console.WriteLine("Welcome to simpleATM");
+
+        Console.ForegroundColor = ConsoleColor.Cyan;
+          Console.WriteLine(@"
+              _      ____  _     _    _         _______ __  __ 
+             | |    / __ \| |   | |  | |     /\|__   __|  \/  |
+             | |   | |  | | |   | |  | |    /  \  | |  | \  / |
+             | |   | |  | | |   | |  | |   / /\ \ | |  | |\/| |
+             | |___| |__| | |___| |__| |  / ____ \| |  | |  | |
+             |______\____/|______\____/  /_/    \_\_|  |_|  |_|
+
+          ");
+          Console.ResetColor();
+
         Console.WriteLine("Please enter your card number: ");
         String debitCardNum = "";
         cardHolder currentUser = null;
@@ -141,12 +164,16 @@ public class cardHolder
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Card Not recognized, Please try again");
+                    Console.ResetColor();
                 }
             }
             catch
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Card Not recognized, Please try again");
+                Console.ResetColor();
             }
         }
 
@@ -165,16 +192,22 @@ public class cardHolder
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Invalid Pin, Please try again");
+                    Console.ResetColor();
                 }
             }
             catch
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Invalid Pin, Please try again");
+                Console.ResetColor();
             }
         }
 
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("Welcome " + currentUser.getFirstName() + " " + currentUser.getLastName() + " :)");
+        Console.ResetColor();
 
         int option = 0;
 
